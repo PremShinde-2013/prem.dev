@@ -120,7 +120,7 @@ function IndexContents() {
       <div className={clsx('-mt-24 mb-24', 'md:mt-0 md:mb-24')}>
         <GithubSection />
       </div>
-      <section className={clsx('mb-24', 'lg:mb-24')}>
+      {/* <section className={clsx('mb-24', 'lg:mb-24')}>
         <CleanIntuitive />
       </section>
       <section className={clsx('mb-24', 'lg:mb-24')}>
@@ -128,7 +128,7 @@ function IndexContents() {
       </section>
       <section className={clsx('mb-24', 'lg:mb-24')}>
         <PrettyOptimized />
-      </section>
+      </section> */}
     </>
   );
 }

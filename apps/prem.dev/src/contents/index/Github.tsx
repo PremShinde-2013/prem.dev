@@ -3,8 +3,9 @@ import { m as motion } from 'framer-motion'; // Importing `m` instead of `motion
 import React, { useState } from 'react';
 import GitHubCalendar from 'react-github-calendar';
 
-import { AuroraBackground } from '../../components/ui/aurora-background';
 import SectionContent from '@/components/sections/SectionContent';
+
+import { AuroraBackground } from '../../components/ui/aurora-background';
 
 const contributionYears = [2024, 2023, 2022];
 export default function GithubGraphSection() {
