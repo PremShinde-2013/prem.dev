@@ -1,7 +1,8 @@
+/* eslint-disable react/no-array-index-key */
 import clsx from 'clsx';
 import { useState } from 'react';
-
-import { GitHubIcon, NpmIcon } from '@/components/Icons';
+import { projects } from '../../data/projects';
+import { GitHubIcon, NpmIcon, StarIcon } from '@/components/Icons';
 import { SectionButton } from '@/components/sections/SectionButton';
 import SectionContent from '@/components/sections/SectionContent';
 import SectionTitle from '@/components/sections/SectionTitle';
@@ -9,37 +10,32 @@ import AppWindow from '@/components/wireframes/AppWindow';
 import GitHubWireframe from '@/components/wireframes/GitHub';
 import NpmWireframe from '@/components/wireframes/Npm';
 
+import { HeroHighlight, Highlight } from '../../components/ui/hero-highlight';
+
 function ProjectsContents() {
-  const [currentState, setCurrentState] = useState<'npm' | 'github'>('github');
+  const [currentState, setCurrentState] = useState<'contribute' | 'github'>(
+    'github'
+  );
 
   return (
     <>
-      <SectionTitle
-        title="The dynamic accent colors."
-        caption="tailwindcss-accent"
-        description="Add accent colors for dynamic, flexible color use in your Tailwind CSS project."
-        button={{
-          title: 'learn more',
-          href: '/docs/tailwindcss-accent',
-        }}
-      />
       <SectionContent>
         <div className={clsx('flex', 'lg:gap-12')}>
           <div className={clsx('hidden flex-1 flex-col gap-3 pt-8', 'lg:flex')}>
             <div className={clsx('flex flex-col gap-3')}>
               <SectionButton
-                title="Available on GitHub"
+                title="Discover my creations on GitHub"
                 icon={<GitHubIcon className={clsx('my-2 h-16 w-16')} />}
-                description="Access powerful and flexible package on GitHub with MIT license."
+                description="Dive into the treasure trove of my projects, all freely available on GitHub! Explore, utilize, and innovate with ease. Feel empowered to incorporate them into your creations and projects. Let's collaborate and build a brighter future together!"
                 active={currentState === 'github'}
                 onClick={() => setCurrentState('github')}
               />
               <SectionButton
-                title="npm package"
-                icon={<NpmIcon className={clsx('my-2 h-16 w-16')} />}
-                description="Install and use the package with ease thanks to its typed options."
-                active={currentState === 'npm'}
-                onClick={() => setCurrentState('npm')}
+                title="Contribute & Star"
+                icon={<StarIcon className={clsx('my-2 h-16 w-16')} />}
+                description="Feel free to contribute to this amazing project on GitHub. Don't forget to give it a star!"
+                active={currentState === 'contribute'}
+                onClick={() => setCurrentState('contribute')}
               />
             </div>
           </div>
@@ -51,28 +47,28 @@ function ProjectsContents() {
                   browserTabs={[
                     {
                       icon: <GitHubIcon className="h-4 w-4" />,
-                      title: 'enjidev/tailwindcss-accent - GitHub',
+                      title: 'premdev/ - GitHub',
                       isActive: currentState === 'github',
                     },
                     {
-                      icon: <NpmIcon className="h-4 w-4" />,
-                      title: 'tailwindcss-accent - npm',
-                      isActive: currentState === 'npm',
+                      icon: <StarIcon className="h-4 w-4" />,
+                      title: '- Contribute',
+                      isActive: currentState === 'contribute',
                     },
                   ]}
                 >
                   {currentState === 'github' && (
                     <GitHubWireframe
-                      author="enjidev"
+                      author="premdev"
                       license="MIT"
-                      repository="tailwindcss-accent"
-                      description="Adds accent colors for more dynamic and flexible color utilization."
+                      repository="Projects"
+                      description="Discover a world of innovation and creativity! Visit my GitHub profile to explore a myriad of unique projects waiting to inspire you."
                     />
                   )}
-                  {currentState === 'npm' && (
+                  {currentState === 'contribute' && (
                     <NpmWireframe
-                      packageName="tailwindcss-accent"
-                      description="Adds accent colors for more dynamic and flexible color utilization."
+                      packageName="Projects"
+                      description="Feel free to contribute to this amazing project on GitHub. Don't forget to give it a star!"
                       isWithTypeScript
                     />
                   )}
@@ -82,6 +78,17 @@ function ProjectsContents() {
           </div>
         </div>
       </SectionContent>
+      <HeroHighlight className="h-fit w-fit">
+        <div className=" flex w-full flex-wrap ">
+          {projects.map((project, index) => (
+            <div key={index} className="w-full p-2 md:w-1/2">
+              {' '}
+              {/* Use flex-wrap for responsiveness */}
+              <SectionTitle project={project} />
+            </div>
+          ))}
+        </div>
+      </HeroHighlight>
     </>
   );
 }

@@ -42,21 +42,21 @@ function NpmWireframe({
         <div className={clsx('flex')}>
           <div
             className={clsx(
-              'flex gap-2 rounded-t-lg border-b-2 border-yellow-400 bg-yellow-50 p-3 px-4',
-              'dark:bg-yellow-400/10'
+              'flex gap-2 rounded-t-lg border-b-2 border-yellow-400 bg-violet-50 p-3 px-4',
+              'dark:bg-violet-400/10'
             )}
           >
             <div
               className={clsx(
-                'flex h-4 items-center rounded-md bg-yellow-400/50',
-                'dark:bg-yellow-400/30'
+                'flex h-4 items-center rounded-md bg-violet-400/50',
+                'dark:bg-violet-400/30'
               )}
               style={{ width: 16 }}
             />
             <div
               className={clsx(
-                'flex h-4 items-center rounded-md bg-yellow-400/50',
-                'dark:bg-yellow-400/30'
+                'flex h-4 items-center rounded-md bg-violet-400/50',
+                'dark:bg-violet-400/30'
               )}
               style={{ width: 64 }}
             />
@@ -86,7 +86,7 @@ function NpmWireframe({
             <SkeletonSm w={48} />
           </div>
           <div
-            className={clsx('flex gap-2 border-b-2 border-red-400 p-3 px-4')}
+            className={clsx('flex gap-2 border-b-2 border-purple-400 p-3 px-4')}
           >
             <SkeletonSm />
             <SkeletonSm w={48} />

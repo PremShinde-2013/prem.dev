@@ -2,7 +2,6 @@ import WithTableOfContents from '@/components/layouts/WithTableOfContents';
 import Head from '@/components/meta/Head';
 import SkipNavigation from '@/components/navigations/SkipNavigation';
 import PageHeader from '@/components/PageHeader';
-
 import { getPageOgImageUrl } from '@/helpers/page';
 
 import type { TPageFrontMatter, TTableOfContents } from '@/types';

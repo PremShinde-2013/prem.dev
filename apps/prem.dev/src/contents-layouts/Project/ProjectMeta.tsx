@@ -7,10 +7,15 @@ import { TProjectFrontMatter } from '@/types';
 interface ProjectMetaProps {
   githubUrl?: TProjectFrontMatter['githubUrl'];
   npmUrl?: TProjectFrontMatter['npmUrl'];
+  websiteUrl?: string; // New prop for website URL
 }
 
-function ProjectMeta({ githubUrl = '', npmUrl = '' }: ProjectMetaProps) {
-  if (!githubUrl && !npmUrl) return null;
+function ProjectMeta({
+  githubUrl = '',
+  npmUrl = '',
+  websiteUrl = '',
+}: ProjectMetaProps) {
+  if (!githubUrl && !npmUrl && !websiteUrl) return null;
 
   return (
     <div className={clsx('content-wrapper mb-10')}>
@@ -40,6 +45,16 @@ function ProjectMeta({ githubUrl = '', npmUrl = '' }: ProjectMetaProps) {
           >
             <NpmIcon className={clsx('h-5 w-5')} />
             npm
+          </a>
+        )}
+        {websiteUrl && (
+          <a
+            href={websiteUrl}
+            target="_blank"
+            rel="noreferrer nofollow"
+            className={clsx('button button--soft')}
+          >
+            Visit Website
           </a>
         )}
       </div>

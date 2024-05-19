@@ -19,6 +19,17 @@ const nextConfig = {
   ],
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   reactStrictMode: true,
+  images: {
+    domains: [
+      'images.unsplash.com',
+      'icons8.com',
+      'cdn.iconscout.com',
+      'seeklogo.com',
+      'encrypted-tbn0.gstatic.com',
+      'cdn.icon-icons.com',
+      'nextui.org',
+    ],
+  },
 };
 
 const withBundleAnalyzer = bundeAnalyzer({

@@ -4,7 +4,19 @@ import { useState } from 'react';
 function AccentDemo() {
   const accents = ['violet', 'red', 'blue', 'orange', 'green', 'pink'] as const;
 
-  const [accent, setAccent] = useState<typeof accents[number]>('violet');
+  const [accent, setAccent] = useState<(typeof accents)[number]>('violet');
+
+  const [redirectUrl, setRedirectUrl] = useState(''); // State to hold the redirect URL
+
+  const handleProjectClick = () => {
+    // Set the URL to redirect to
+    setRedirectUrl('https://learnifypro-lms.vercel.app/');
+  };
+
+  // If redirectUrl is set, redirect the user to the specified URL
+  if (redirectUrl) {
+    window.location.href = redirectUrl;
+  }
 
   const handleClick = () => {
     const newAccent = accents[accents.indexOf(accent) + 1] || accents[0];
@@ -16,7 +28,7 @@ function AccentDemo() {
     setAccent(newAccent);
   };
 
-  const getButtonText = (color: typeof accents[number]): string => {
+  const getButtonText = (color: (typeof accents)[number]): string => {
     switch (color) {
       case 'violet':
         return `This is perfect 👌`;
@@ -93,13 +105,17 @@ function AccentDemo() {
           }
         `}
       </style>
-      <button
-        type="button"
-        className={clsx('button button--solid button--big')}
-        onClick={handleClick}
-      >
-        {getButtonText(accent)}
-      </button>
+
+      <div className={clsx('my-12 flex items-center justify-center')}>
+        {/* eslint-disable-next-line react/no-unknown-property */}
+        <button
+          type="button"
+          className={clsx('button button--solid button--big')}
+          onClick={handleProjectClick}
+        >
+          Access LearnifyPro👆
+        </button>
+      </div>
     </div>
   );
 }
