@@ -51,7 +51,7 @@ function Callout({
   }
 
   return (
-    <div className={clsx('mdx-callout', data.modifier)}>
+    <div className={clsx('mdx-callout ', data.modifier)}>
       <div className={clsx('mdx-callout__header')}>
         {data.icon}
         {data.title}

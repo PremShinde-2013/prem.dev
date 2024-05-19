@@ -42,9 +42,9 @@ export const Skilldata = [
     height: 80,
   },
   {
-    skillname: 'React Query',
+    skillname: 'Three js',
     Image:
-      'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png',
+      'https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/b/be2f75f72751c11cbe1593c69a99a52900bf12cb.svg',
     width: 80,
     height: 80,
   },
@@ -65,14 +65,14 @@ export const Skilldata = [
   {
     skillname: 'Framer Motion',
     Image:
-      'https://cdn.iconscout.com/icon/free/png-512/free-framer-3521436-2944880.png?f=webp&w=256',
+      'https://www.tpisoftware.com/tpu/File/html/202009/20200929151429/images/20200926171128.png',
     width: 80,
     height: 80,
   },
   {
     skillname: 'Stripe Payment',
     Image:
-      'https://cdn.iconscout.com/icon/free/png-512/free-stripe-2-498440.png?f=webp&w=256',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7N3BDXg58ytSvZ7CIKLPbHGBAhdEJX0ZteHdfsnWwZg&s',
     width: 80,
     height: 80,
   },
@@ -109,31 +109,25 @@ export const Socials = [
 
 export const Frontendskill = [
   {
-    skillname: 'Html 5',
-    Image:
-      'https://cdn.iconscout.com/icon/free/png-512/free-html-3628838-3030115.png?f=webp&w=256',
-
-    width: 80,
-    height: 80,
-  },
-  {
     skillname: 'Css',
     Image:
       'https://cdn.iconscout.com/icon/free/png-512/free-css-131-722685.png?f=webp&w=256',
     width: 80,
     height: 80,
   },
-  {
-    skillname: 'Java Script',
-    Image:
-      'https://cdn.iconscout.com/icon/premium/png-512-thumb/javascript-2752148-2284965.png?f=webp&w=256',
-    width: 65,
-    height: 65,
-  },
+
   {
     skillname: 'Tailwind Css',
     Image:
       'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
+    width: 80,
+    height: 80,
+  },
+  {
+    skillname: 'Html 5',
+    Image:
+      'https://cdn.iconscout.com/icon/free/png-512/free-html-3628838-3030115.png?f=webp&w=256',
+
     width: 80,
     height: 80,
   },
@@ -152,6 +146,13 @@ export const Frontendskill = [
     height: 80,
   },
   {
+    skillname: 'Java Script',
+    Image:
+      'https://cdn.iconscout.com/icon/premium/png-512-thumb/javascript-2752148-2284965.png?f=webp&w=256',
+    width: 65,
+    height: 65,
+  },
+  {
     skillname: 'Redux',
     Image:
       'https://cdn.iconscout.com/icon/free/png-512/free-redux-283024.png?f=webp&w=256',
@@ -159,9 +160,9 @@ export const Frontendskill = [
     height: 80,
   },
   {
-    skillname: 'React Query',
+    skillname: 'Three js',
     Image:
-      'https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png',
+      'https://global.discourse-cdn.com/standard17/uploads/threejs/original/2X/b/be2f75f72751c11cbe1593c69a99a52900bf12cb.svg',
     width: 80,
     height: 80,
   },
@@ -192,7 +193,7 @@ export const Backendskill = [
   {
     skillname: 'Express js',
     Image:
-      'https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-11217528-9200532.png?f=webp&w=256',
+      'https://www.pngfind.com/pngs/m/136-1363736_express-js-icon-png-transparent-png.png',
     width: 80,
     height: 80,
   },
@@ -227,14 +228,14 @@ export const Backendskill = [
   {
     skillname: 'Prisma',
     Image:
-      'https://cdn.icon-icons.com/icons2/2148/PNG/512/prisma_icon_132076.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOEXVZmo0Z-iI-UD1_wQpIdpk0plseGjNTcdYAc4Z__cZl26aFT3H575ySjxzmkumeMWA&usqp=CAU',
     width: 70,
     height: 70,
   },
   {
     skillname: 'Graphql',
     Image:
-      'https://cdn.iconscout.com/icon/premium/png-512-thumb/graphql-2892022-2399460.png?f=webp&w=256',
+      'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/graphql-icon.png',
     width: 80,
     height: 80,
   },

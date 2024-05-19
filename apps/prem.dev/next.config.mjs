@@ -28,6 +28,10 @@ const nextConfig = {
       'encrypted-tbn0.gstatic.com',
       'cdn.icon-icons.com',
       'nextui.org',
+      'www.tpisoftware.com',
+      'uxwing.com',
+      'www.pngfind.com',
+      'w7.pngwing.com',
     ],
   },
 };

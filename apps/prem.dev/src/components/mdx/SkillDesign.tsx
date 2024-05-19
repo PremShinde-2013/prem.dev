@@ -10,74 +10,80 @@ import {
 } from '@/constants';
 
 import SkillDataProvider from '../SkillDataProvider';
+import { HeroHighlight } from '../ui/hero-highlight';
 
 function Skills() {
   return (
-    <section
-      id="skills"
-      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden "
-      style={{ transform: 'scale(0.9' }}
-    >
-      {/* <SkillText /> */}
+    <HeroHighlight className="my-5 h-fit  w-fit ">
+      <section
+        id="skills"
+        className="h-autp relative flex flex-col items-center justify-center gap-3 overflow-hidden "
+        style={{ transform: 'scale(0.9' }}
+      >
+        {/* <SkillText /> */}
 
-      <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
-        {Skilldata.map((image, index) => (
-          <SkillDataProvider
-            // eslint-disable-next-line react/no-array-index-key
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
+        <h1 className="my-4 text-center text-3xl font-bold md:text-6xl">
+          Dive into My Tech Arsenal
+        </h1>
 
-      <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
-        {Frontendskill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
-        {Backendskill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
-        {Fullstack.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-      <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
-        {Otherskill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
-    </section>
+        <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5 rounded-xl">
+          {Skilldata.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+
+        <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5 rounded-3xl">
+          {Frontendskill.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+        <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
+          {Backendskill.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+        <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
+          {Fullstack.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+        <div className="mt-4 flex flex-row flex-wrap items-center justify-around gap-5">
+          {Otherskill.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
+        </div>
+      </section>
+    </HeroHighlight>
   );
 }
 
