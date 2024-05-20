@@ -202,10 +202,7 @@ function Footer() {
                       title: 'Docs',
                       href: '/docs',
                     },
-                    {
-                      title: 'Personal Blog',
-                      href: '/blog',
-                    },
+
                     {
                       title: 'T.I.L',
                       href: '/today-i-learned',
