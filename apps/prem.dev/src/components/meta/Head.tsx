@@ -19,9 +19,7 @@ function Head({
 }: HeadProps) {
   const currentUrl = useCurrentUrl();
 
-  const htmlTitle = overrideTitle
-    ? title
-    : `${title} — Enji · Front-End Developer`;
+  const htmlTitle = overrideTitle ? title : `${title} — Prem · Web Developer`;
 
   return (
     <NextHead>
@@ -40,8 +38,8 @@ function Head({
 
       {/* twitter card */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@enjidev" />
-      <meta name="twitter:creator" content="@enjidev" />
+      <meta name="twitter:site" content="@premdev" />
+      <meta name="twitter:creator" content="@premdev" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
