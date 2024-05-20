@@ -32,6 +32,7 @@ const nextConfig = {
       'uxwing.com',
       'www.pngfind.com',
       'w7.pngwing.com',
+      'skillicons.dev',
     ],
   },
 };

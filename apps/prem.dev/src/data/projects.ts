@@ -6,7 +6,7 @@ export const projects = [
       'Your go-to Learning Management System (LMS) web application for empowering educational experiences.',
     description:
       'Dive into LearnifyPro, a cutting-edge LMS platform designed with innovation in mind. Explore a world of educational possibilities as we redefine the learning journey.',
-    imageUrl: 'https://minimal-portfolio-swart.vercel.app/p2.svg', // Add imageUrl property
+    imageUrl: '/learnifyPro1.png', // Add imageUrl property
     tech: [
       'https://skillicons.dev/icons?i=nextjs',
       'https://skillicons.dev/icons?i=typescript',
@@ -23,26 +23,64 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Another Project',
-    caption: 'Another Caption', // Add caption property
-    description: 'Another Description', // Add description property
+    title: 'LearnifyProStream',
+    caption:
+      'Effortless virtual meetings with LearnifyProStream: Schedule, connect, and collaborate from anywhere.', // Add caption property
+    description:
+      'LearnifyProStream is a modern online meeting platform that enables users to schedule meetings and create personal rooms with ease. Built with cutting-edge web technologies, it offers a seamless and interactive experience for virtual meetings.', // Add description property
     imageUrl: 'https://minimal-portfolio-swart.vercel.app/p2.svg', // Add imageUrl property
-    tech: ['https://example.com/icon1.png', 'https://example.com/icon2.png'], // Add tech property
+    tech: [
+      'https://skillicons.dev/icons?i=nextjs',
+      'https://skillicons.dev/icons?i=react',
+      'https://skillicons.dev/icons?i=typescript',
+      'https://www.tpisoftware.com/tpu/File/html/202009/20200929151429/images/20200926171128.png',
+
+      'https://cdn.sanity.io/images/o0o2tn5x/production/2399b991025c365aafaa6fca85d91deac801e654-1046x1046.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Ol6_epDh2hHRYgtETM3PICio5cJ2Mebb1ixWsS0J3w&s',
+    ], // Add tech property
     button: {
       title: 'Learn More',
-      href: '/another-project-details',
+      href: '/docs/learifyProstream',
     },
   },
   {
     id: 3,
-    title: 'Another Project',
-    caption: 'Another Caption', // Add caption property
-    description: 'Another Description', // Add description property
-    imageUrl: 'https://minimal-portfolio-swart.vercel.app/p2.svg', // Add imageUrl property
-    tech: ['https://example.com/icon1.png', 'https://example.com/icon2.png'], // Add tech property
+    title: 'CryptoversX',
+    caption:
+      'CryptoversX: Navigate the crypto world with real-time data and the latest news at your fingertips.',
+    description:
+      'CryptoversX is your one-stop destination for real-time cryptocurrency prices, market trends, and the latest news. Stay ahead in the crypto world with our interactive and informative platform.', // Add description property
+    imageUrl: '/cryptoverse.png', // Add imageUrl property
+    tech: [
+      'https://skillicons.dev/icons?i=react',
+      'https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-xbdsnx83.png',
+      'https://avatars.githubusercontent.com/u/16919504?s=280&v=4',
+
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsm8BpYiCrahK0rhDkyZ4m6YI1vIuWC0X3dwNKVJhsJnxvN7mOZbUY01ssb2bbAROMiwQ&usqp=CAU',
+    ], // Add tech property
     button: {
       title: 'Learn More',
-      href: '/another-project-details',
+      href: '/docs/cryptoVerse',
+    },
+  },
+  {
+    id: 4,
+    title: '3D Product Designer',
+    caption:
+      '3D Product Designer: Create, customize, and visualize your products in stunning 3D.',
+    description:
+      '3D Product Designer lets you customize and visualize products in 3D. Save designs and get AI recommendations.',
+
+    imageUrl: '/3dproduct.png', // Add imageUrl property
+    tech: [
+      'https://skillicons.dev/icons?i=react',
+      'https://skillicons.dev/icons?i=threejs',
+      'https://skillicons.dev/icons?i=tailwind',
+      'https://skillicons.dev/icons?i=vite',
+    ], // Add tech property
+    button: {
+      title: 'Learn More',
+      href: '/docs/productDesign',
     },
   },
 ];
