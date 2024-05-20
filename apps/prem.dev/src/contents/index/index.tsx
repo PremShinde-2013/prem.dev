@@ -2,16 +2,13 @@ import clsx from 'clsx';
 
 import { CodeIcon, HeartIcon, SparklesIcon } from '@/components/Icons';
 
-import CleanIntuitive from '@/contents/index/CleanIntuitive';
-import DetailOriented from '@/contents/index/DetailOriented';
 import FeaturedCard from '@/contents/index/FeaturedCard';
 import Header from '@/contents/index/Header';
-import PrettyOptimized from '@/contents/index/PrettyOptimized';
 import Quote from '@/contents/index/Quote';
 
 import { About } from './About';
-import Looking from './looking';
 import GithubGraphSection from './Github';
+import Looking from './looking';
 
 function FeaturedCardSection() {
   return (
@@ -120,15 +117,6 @@ function IndexContents() {
       <div className={clsx('-mt-24 mb-24', 'md:mt-0 md:mb-24')}>
         <GithubSection />
       </div>
-      {/* <section className={clsx('mb-24', 'lg:mb-24')}>
-        <CleanIntuitive />
-      </section>
-      <section className={clsx('mb-24', 'lg:mb-24')}>
-        <DetailOriented />
-      </section>
-      <section className={clsx('mb-24', 'lg:mb-24')}>
-        <PrettyOptimized />
-      </section> */}
     </>
   );
 }
