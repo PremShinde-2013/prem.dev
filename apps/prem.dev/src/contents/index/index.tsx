@@ -13,7 +13,7 @@ import Looking from './looking';
 function FeaturedCardSection() {
   return (
     <div className={clsx('content-wrapper')}>
-      <div className={clsx('flex flex-col gap-4', 'lg:flex-row lg:gap-8')}>
+      <div className={clsx('flex flex-col gap-4', ' lg:flex-row lg:gap-8')}>
         <FeaturedCard
           icon={
             <div
@@ -102,7 +102,7 @@ function IndexContents() {
   return (
     <>
       <Header />
-      <div className={clsx('hidden', 'lg:-mt-16 lg:mb-24 lg:block')}>
+      <div className={clsx('hidden', ' ml-6 lg:-mt-16 lg:mb-24 lg:block')}>
         <FeaturedCardSection />
       </div>
       <div className={clsx('-mt-24 mb-24', 'md:mt-0 md:mb-24')}>

@@ -47,7 +47,7 @@ export default function GithubGraphSection() {
                     ))}
                   </div>
 
-                  <div className="hover:border-primary-900 flex w-96 items-center justify-center overflow-x-scroll rounded-md border-2 border-gray-700 border-opacity-60 p-6 transition-all md:w-full  ">
+                  <div className="hover:border-primary-900 flex w-80 items-center justify-center overflow-x-scroll rounded-md border-2 border-gray-700 border-opacity-60 p-6 transition-all md:w-full  ">
                     <GitHubCalendar
                       key={`${year}-calendar`}
                       username="PremShinde-2013"
