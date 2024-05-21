@@ -9,7 +9,7 @@
 
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
-## 📘 [prem.dev](https://www.prem.dev)
+## 📘 [prem.dev](https://premshindedev.vercel.app/)
 
 A personal website with a blog, project showcase, and work information.
 
