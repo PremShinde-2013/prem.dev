@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import clsx from 'clsx';
 import { m } from 'framer-motion';
 
 import {
   FigmaIcon,
   FramerMotionIcon,
+  MongodbIcon,
   NextJsIcon,
   ReactIcon,
   TailwindCssIcon,
@@ -57,6 +59,20 @@ function HeaderTechStack() {
         <m.li variants={animation}>
           <div className={clsx('transition duration-200 hover:text-[#0055FF]')}>
             <FramerMotionIcon className={clsx('h-6 w-6')} />
+          </div>
+        </m.li>
+        <m.li variants={animation}>
+          <div className={clsx('transition duration-200 hover:text-[#02d109]')}>
+            <MongodbIcon className={clsx('h-6 w-6')} />
+          </div>
+        </m.li>
+        <m.li variants={animation}>
+          <div className={clsx('transition duration-200 hover:text-[#02d109]')}>
+            <img
+              alt="vercel"
+              src="https://skillicons.dev/icons?i=vercel"
+              className={clsx('h-6 w-6 text-gray-300 ')}
+            />
           </div>
         </m.li>
         <m.li variants={animation}>

@@ -35,7 +35,7 @@ export default function GithubGraphSection() {
                       <Button
                         key={singleYear}
                         type="button"
-                        className={`cursor-pointer rounded-2xl  text-xl font-bold ${
+                        className={`h-8 w-16  cursor-pointer rounded-2xl text-xl font-bold md:h-10 md:w-auto  ${
                           year === singleYear
                             ? 'bg-violet-600 text-white'
                             : 'text-black'
