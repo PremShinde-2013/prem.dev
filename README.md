@@ -3,8 +3,6 @@
     Prem Shinde
     &middot;
     <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fpremshindedev.vercel.app"/>
-    <img src="https://img.shields.io/github/deployments/PremShinde-2013/prem.dev?label=production&style=flat-square"/>
-    <img src="https://img.shields.io/github/commit-activity/m/PremShinde-2013/prem.dev?style=flat-square"/>
   </h1>
 </div>
 
