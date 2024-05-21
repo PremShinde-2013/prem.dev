@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "apps/prem.dev/next.config.js",
-      "use": "@vercel/next"
-    }
-  ]
-}

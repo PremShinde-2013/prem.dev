@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/prem.dev/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "apps/prem.dev/$1" }]
+}
