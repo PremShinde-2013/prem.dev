@@ -2,11 +2,12 @@
   <h1>
     Prem Shinde
     &middot;
-    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.prem.dev"/>
-    <img src="https://img.shields.io/github/deployments/premdev/prem.dev/production?label=production&style=flat-square"/>
-    <img src="https://img.shields.io/github/commit-activity/m/premdev/prem.dev?style=flat-square"/>
+    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fpremshindedev.vercel.app"/>
+    <img src="https://img.shields.io/github/deployments/PremShinde-2013/prem.dev/production?label=production&style=flat-square"/>
+    <img src="https://img.shields.io/github/commit-activity/m/PremShinde-2013/prem.dev?style=flat-square"/>
   </h1>
 </div>
+
 
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
