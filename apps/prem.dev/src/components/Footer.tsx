@@ -5,6 +5,7 @@ import {
   ExternalLink,
   FigmaIcon,
   GitHubIcon,
+  LinkedinIcon,
   TwitterIcon,
 } from '@/components/Icons';
 
@@ -118,14 +119,14 @@ function FooterDescription() {
       <ul className={clsx('-ml-2 flex gap-1')}>
         <li>
           <a
-            href="https://github.com/PremShinde-2013"
+            href="https://www.linkedin.com/in/prem-shinde-diet/"
             target="_blank"
             rel="noreferrer nofollow"
             className={clsx('flex h-9 w-9 items-center justify-center')}
             aria-label="My Twitter profile"
             title="My Twitter profile"
           >
-            <TwitterIcon className={clsx('h-5 w-5')} />
+            <LinkedinIcon className={clsx('h-5 w-5')} />
           </a>
         </li>
         <li>
