@@ -83,4 +83,25 @@ export const projects = [
       href: '/docs/productDesign',
     },
   },
+  {
+    id: 5,
+    title: 'Movies Wrld',
+    caption:
+      'Movies Wrld: Discover and explore movies effortlessly with real-time data from TMDB.',
+    description:
+      'Movies Wrld allows you to browse and search for movies using TMDB API, providing detailed information in a user-friendly interface.',
+
+    imageUrl: '/movieswrld.png', // Add imageUrl property
+    tech: [
+      'https://skillicons.dev/icons?i=html',
+      'https://skillicons.dev/icons?i=css',
+      'https://skillicons.dev/icons?i=js',
+      'https://skillicons.dev/icons?i=php',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTad8rBRCCg-MXMneEqybdVhqbBkibu30PwDn0vLiPHlw&s',
+    ], // Add tech property
+    button: {
+      title: 'Learn More',
+      href: '/docs/movieswrld',
+    },
+  },
 ];
