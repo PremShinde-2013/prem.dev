@@ -1,6 +1,25 @@
 export const projects = [
   {
     id: 1,
+    title: 'Wallpaper Saga',
+    caption: 'Explore and download stunning wallpapers for your device.',
+    description:
+      'Wallpaper Saga is a React Native app to browse and download high-quality wallpapers using the Pexels API.',
+
+    imageUrl: '/wallpaperapp.png', // Add imageUrl property
+    tech: [
+      'https://skillicons.dev/icons?i=react',
+      'https://skillicons.dev/icons?i=tailwind',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtOldZnoKhdySf4nGx6G0PGtHiaDMrNDyPEnqtKycSg&s',
+      'https://avatars.githubusercontent.com/u/12876026?s=280&v=4',
+    ], // Add tech property
+    button: {
+      title: 'Learn More',
+      href: '/docs/wallpaperapp',
+    },
+  },
+  {
+    id: 2,
     title: 'LearnifyPro',
     caption:
       'Your go-to Learning Management System (LMS) web application for empowering educational experiences.',
@@ -22,7 +41,7 @@ export const projects = [
     },
   },
   {
-    id: 2,
+    id: 3,
     title: 'LearnifyProStream',
     caption:
       'Effortless virtual meetings with LearnifyProStream: Schedule, connect, and collaborate from anywhere.', // Add caption property
@@ -44,7 +63,7 @@ export const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     title: 'CryptoversX',
     caption:
       'CryptoversX: Navigate the crypto world with real-time data and the latest news at your fingertips.',
@@ -64,7 +83,7 @@ export const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     title: '3D Product Designer',
     caption:
       '3D Product Designer: Create, customize, and visualize your products in stunning 3D.',
@@ -84,7 +103,7 @@ export const projects = [
     },
   },
   {
-    id: 5,
+    id: 6,
     title: 'Movies Wrld',
     caption:
       'Movies Wrld: Discover and explore movies effortlessly with real-time data from TMDB.',
