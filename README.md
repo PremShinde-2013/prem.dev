@@ -8,7 +8,6 @@
   </h1>
 </div>
 
-
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
 ## 📘 [prem.dev](https://premshindedev.vercel.app/)
