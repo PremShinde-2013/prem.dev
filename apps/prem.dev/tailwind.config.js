@@ -119,12 +119,23 @@ module.exports = {
         },
         animation: {
           aurora: 'aurora 60s linear infinite',
+          orbit: 'orbit calc(var(--duration)*1s) linear infinite',
         },
       },
       animation: {
         'bounce-x': 'bounce-x 1s infinite',
       },
       keyframes: {
+        orbit: {
+          '0%': {
+            transform:
+              'rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)',
+          },
+          '100%': {
+            transform:
+              'rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)',
+          },
+        },
         'bounce-x': {
           '0%, 100%': {
             transform: 'translateX(25%)',
