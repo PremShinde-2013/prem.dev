@@ -33,6 +33,7 @@ const nextConfig = {
       'www.pngfind.com',
       'w7.pngwing.com',
       'skillicons.dev',
+      'sm.ign.com',
     ],
   },
 };

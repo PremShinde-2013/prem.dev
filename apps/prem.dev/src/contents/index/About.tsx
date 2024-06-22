@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
 
 import { HeroHighlight, Highlight } from '../../components/ui/hero-highlight';
+import SparklesText from '@/components/magicui/sparkels-text';
+import TextRevealByWord from '@/components/magicui/text-revel';
 
 export function About() {
   return (
     <HeroHighlight>
       <div className="mb-10 text-center text-3xl font-bold md:text-6xl ">
-        About
+        <SparklesText text="About" />
       </div>
       <Highlight className="mx-2 my-4 text-2xl font-bold md:text-4xl   ">
         Who am I ?
@@ -24,7 +26,7 @@ export function About() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="lg:text-1xl mx-auto max-w-4xl px-4 text-center text-base font-bold leading-relaxed text-neutral-700 dark:text-white md:text-xl lg:leading-snug "
+        className="lg:text-1xl mx-auto max-w-4xl px-4 text-center text-base font-bold leading-relaxed text-neutral-700 md:text-xl lg:leading-snug dark:text-white "
       >
         <br />
         <div className="text-left">

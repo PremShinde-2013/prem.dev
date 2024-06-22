@@ -30,8 +30,8 @@ export default function Image({
         />
       ) : null}
       <NextImage
-        // src={src}
-        src="https://sm.ign.com/ign_in/screenshot/default/asus-tuf-a15-2_9zdq.png"
+        src={src}
+        // src="https://sm.ign.com/ign_in/screenshot/default/asus-tuf-a15-2_9zdq.png"
         className={clsx(
           'border-divider-light rounded-lg border',
           'dark:border-divider-dark',
