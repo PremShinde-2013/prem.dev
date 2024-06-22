@@ -61,7 +61,7 @@
 // export default Shortcuts;
 
 import { useEffect, useRef } from 'react';
-import { toast, ToastId } from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 
 import Toast from '@/components/Toast';
 
@@ -77,7 +77,7 @@ const focusToast = {
 };
 
 function Shortcuts() {
-  const toastRef = useRef<ToastId | null>(null);
+  const toastRef = useRef(null);
   const { theme, setTheme } = useTheme();
   const { isQuickAccessOpen, setQuickAccessOpen } = useGlobal();
   const { focusMode, setFocusMode } = useFocusMode();
