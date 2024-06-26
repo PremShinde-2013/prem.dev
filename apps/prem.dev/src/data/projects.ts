@@ -25,7 +25,7 @@ export const projects = [
       'Your go-to Learning Management System (LMS) web application for empowering educational experiences.',
     description:
       'Dive into LearnifyPro, a cutting-edge LMS platform designed with innovation in mind. Explore a world of educational possibilities as we redefine the learning journey.',
-    imageUrl: '/learnifyPro1.png', // Add imageUrl property
+    imageUrl: '/lms-platform.png', // Add imageUrl property
     tech: [
       'https://skillicons.dev/icons?i=nextjs',
       'https://skillicons.dev/icons?i=typescript',
